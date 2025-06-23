@@ -1,0 +1,184 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.nav-link:hover {
+    background-color: #00ffff;
+    color: #0e0e0e;
+    border-radius: 4px;
+    transition: 1s;
+}
+
+/* HERO */
+#hero {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+.titulo {
+    color: #00ffff;
+    position: relative;
+    z-index: 1;
+}
+
+/* Botón */
+.btn-outline-light {
+    border: 2px solid #00ffff;
+    color: #00ffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-light:hover {
+    background-color: #00ffff;
+    color: #0e0e0e;
+    box-shadow: 0 0 15px #00ffff50;
+}
+
+
+        /* sobre mi ------------------------------------------------------------------------> */
+
+.section-sobre-mi {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+
+        /* proyectos ------------------------------------------------------------------------> */
+
+#proyectos {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+
+/* Cards estilo oscuro */
+.card {
+    background-color: #121212;
+    border: 1px solid #2c2c2c;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    position: static;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  max-height: 250px;
+  object-fit: contain;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+/* Botón en cards */
+.card .btn-outline-light {
+    border-color: #00ffff;
+    color: #00ffff;
+}
+
+.card .btn-outline-light:hover {
+    border-color: #ffffff;
+    background-color: #00ffff;
+    color: #121212;
+}
+
+/* contacto ------------------------------------------------------------------------> */
+
+#contacto{
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+.icon {
+  color: #00ffff;
+  transition: color 0.3s;
+}
+
+.icon:hover {
+  color: #00baba;
+}
+
+
+/* certificados ------------------------------------------------------------------------>  */
+
+#certificados {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+    color: #f1f1f1;
+}
+
+#certificados h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00ffff;
+  margin-bottom: 2rem;
+}
+
+#certificados .card {
+  background-color: #161b22;
+  border: none;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: static;
+}
+
+#certificados .card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(13, 202, 240, 0.2);
+}
+
+#certificados .card-img-top {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  height: 220px;
+  object-fit: cover;
+}
+
+#certificados .card-title {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+#certificados .btn {
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  transition: all 0.3s ease-in-out;
+}
+
+#certificados .btn:hover {
+  border-color: #ffffff;
+  background-color: #00ffff;
+  color: #0e0e0e;
+  box-shadow: 0 0 15px #00ffff50;
+}
